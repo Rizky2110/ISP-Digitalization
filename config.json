@@ -1,0 +1,31 @@
+{
+  "MIKROTIK": {
+    "host": "123.45.67.89",
+    "port": 22,
+    "user": "admin",
+    "password": "password_mikrotik"
+  },
+  "OLTS": {
+       "olt1": {
+      "lan_ip": "192.168.10.2",
+      "port_public": 2201,
+      "user": "oltuser",
+      "password": "oltpass",
+      "vendor": "zte"
+    },
+    "olt2": {
+      "lan_ip": "192.168.20.2",
+      "port_public": 2202,
+      "user": "oltuser",
+      "password": "oltpass",
+      "vendor": "huawei"
+    }
+  },
+  "MQTT": {
+    "broker": "broker.emqx.io",
+    "port": 1883,
+    "topic_data": "olt/data",
+    "topic_cmd": "olt/cmd",
+    "topic_onu" : "olt/onu"
+  }
+}
